@@ -1,3 +1,5 @@
+package basics;
+
 public class DemoDay2 {
 
 // SYNTAX : public static void main (String []args){
