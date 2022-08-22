@@ -40,5 +40,15 @@ public class VariableManipulation {
 
       System.out.println("Divide is  : "+divide);
 
+      double c=5.7;
+      double d=7.1;
+
+      double sum_decimal= c+d;
+      System.out.println("Decimal sum is "+sum_decimal);
+
+      double divide_decimal= c/d;
+
+      System.out.println("Decimal division is "+ divide_decimal);
+
     }
 }
