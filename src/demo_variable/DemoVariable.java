@@ -27,5 +27,7 @@ public class DemoVariable {
         double percentage=79.25;
         System.out.println("Printing percentage " +percentage);
 
+        System.out.println("100");
+
     }
 }
