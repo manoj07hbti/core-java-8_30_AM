@@ -4,22 +4,19 @@ public class NOTOperator {
 
     public static void main(String[] args) {
 
-        int age=19;
+        int age = 19;
 
-        if(!(age>18)){
+        if (!(age > 18)) {
 
             System.out.println("Eligible for voting....");
-        }
-        else {
+        } else {
             System.out.println("Not Eligible for voting .......");
         }
 
 
-
-        if(!(age<18)){
+        if (!(age < 18)) {
             System.out.println("Person is Child ....");
-        }
-        else {
+        } else {
             System.out.println("Person is not CHILD ");
         }
 
