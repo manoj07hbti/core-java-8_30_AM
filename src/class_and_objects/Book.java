@@ -24,6 +24,14 @@ public class Book {
         System.out.println("Printing Book pages "+obj1.pages);
         System.out.println("Printing Book Writer Name "+obj1.writerName);
 
+        System.out.println("Printing Book Name "+obj2.name);
+        System.out.println("Printing Book pages "+obj2.pages);
+        System.out.println("Printing Book Writer Name "+obj2.writerName);
+
+        System.out.println("Printing Book Name "+obj3.name);
+        System.out.println("Printing Book pages "+obj3.pages);
+        System.out.println("Printing Book Writer Name "+obj3.writerName);
+
 
     }
 
