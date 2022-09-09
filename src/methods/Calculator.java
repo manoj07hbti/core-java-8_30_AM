@@ -1,0 +1,38 @@
+package methods;
+
+public class Calculator {
+
+    // 1. Add 2. sub 3.divide 4.multi
+
+    //  SYNTAX : access_specifier return_type  method_name (parameter) {CODE..}
+
+    public void addition(){
+
+        int a=3;
+        int b=9;
+
+        int result=a+b;
+
+        System.out.println("SUM of a and b is : "+result);
+    }
+
+    //subtraction a-b
+
+    // multi a*b
+
+    // divide a/b
+
+
+    public static void main(String[] args) {
+
+        Calculator obj= new Calculator();// STEP 1
+        obj.addition();// STEP 2 OBJ>METHOD_NAME();
+
+        // call subtraction method
+
+        // call multiply method
+
+        // call divide method
+    }
+
+}

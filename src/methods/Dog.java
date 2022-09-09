@@ -36,4 +36,19 @@ public class Dog {
         System.out.println("This is Play Method of dog class ....");
     }
 
+
+
+    public static void main(String[] args) {
+
+        // STEP 1 CREATE OBJECT   CLASSNAME OBJ_NAME= NEW CLASSNAME();
+        Dog obj= new Dog();
+
+        //STEP 2 OBJ_NAME.METHOD_NAME():
+        obj.barkMethod();// CALLING BARK METHOD
+
+        obj.eatMethod();// CALLING EAT METHOD
+
+        obj.playMethod();// CALLING PLAY METHOD
+    }
+
 }
