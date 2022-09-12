@@ -21,6 +21,17 @@ public class Calculator {
     // multi a*b
 
     // divide a/b
+    //  SYNTAX : access_specifier return_type  method_name (parameter) {CODE..}
+
+    public void divide(){
+        int a=123;
+        int b=23;
+
+        double result=(double) a/b;
+
+        System.out.println("Division of a and b is : "+result);
+
+    }
 
 
     public static void main(String[] args) {
@@ -33,6 +44,7 @@ public class Calculator {
         // call multiply method
 
         // call divide method
+        obj.divide();
     }
 
 }
