@@ -16,11 +16,13 @@ public class StudentArrayList {
         Student student1= new Student("Raj",23,"CS");
         Student student2= new Student("Rohit", 21,"IT");
         Student student3= new Student("Jatin",20,"CS");
+        Student student4= new Student("Raj",23,"CS");
 
         // step 2 add data to list
         studentArrayList.add(student1);
         studentArrayList.add(student2);
         studentArrayList.add(student3);
+        studentArrayList.add(student4);
 
         return studentArrayList;
 
