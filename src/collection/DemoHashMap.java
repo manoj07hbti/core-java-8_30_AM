@@ -34,6 +34,15 @@ public class DemoHashMap {
             System.out.println("Printing map data: "+hashMap.get(var));
         }
 
+        HashMap<String,String> stringHashMap= new HashMap<>();
+        stringHashMap.put("A","Java");
+        stringHashMap.put("B","Java8");
+        stringHashMap.put("C","Cloud");
+
+        for( String var: stringHashMap.keySet()){
+
+            System.out.println("Printing map of String keys : "+stringHashMap.get(var));
+        }
 
     }
 
