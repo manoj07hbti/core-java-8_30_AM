@@ -18,6 +18,10 @@ public class Calculator {
             System.out.println("Exception occurred ..."+e);
         }
 
+        finally{
+
+           System.out.println("***** FINALLY BLOCK HERE ");
+        }
 
         return result;
     }
